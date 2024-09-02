@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    letter-spacing: 1.9px;
+
+}
+
+header {
+    background-color: #886cdc;
+    display: flex;
+    justify-content: center; /* Joondab horisontaalselt keskele */
+    align-items: center; /* Joondab vertikaalselt keskele */
+    color: white;
+}
+
+#tooted table {
+    width: 90%; /* Näiteks 80% ekraani laiusest */
+    margin: 0 auto; /* Joondab tabeli keskele */
+}
+
+#tooted a{
+    text-decoration: none;
+    color: black;   
+}
+
+#tooted th {
+    margin: 5px 10px;
+    line-height: 0.px;
+}
+
+#tooted img{
+    width: 40px;
+}
+
+#sales {
+    display: flex; /* Kasuta flexi, mitte flexboxi */
+    flex-direction: column;
+    justify-content: center; /* Joondab horisontaalselt keskele */
+    align-items: center; /* Joondab vertikaalselt keskele */
+    background-color: gainsboro;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#sales img {
+    width: 80%;
+}
+
+#sales th, td{
+    border: 1px solid black;
+    width: 350px;
+}
+
+#sales #pealkirjad{
+    text-align: center;
+
+    background-color:#886cdc;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    letter-spacing: normal;
+    padding-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
