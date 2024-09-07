@@ -1,0 +1,1 @@
+let summa = 0;
