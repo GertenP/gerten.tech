@@ -24,13 +24,13 @@ for (let i = 1; i <= 7; i++) {
     katsed.appendChild(katse)
 }
 
-lisa_t2ht = (vajutatud_nupp) => {
+let lisa_t2ht = (vajutatud_nupp) => {
     let aktiivne_kast = document.getElementById("kast" + hetkene_rida.toString() + järg.toString());
     aktiivne_kast.textContent = vajutatud_nupp;
     järg++;
 }
 
-eemalda_t2ht = () => {
+let eemalda_t2ht = () => {
     järg--;
 
     let aktiivne_kast = document.getElementById("kast" + hetkene_rida.toString() + järg.toString());
