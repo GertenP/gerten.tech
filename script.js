@@ -1,8 +1,8 @@
 import { words } from './words.js';
 
-klaviatuur_rida1_list = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Ü", "Õ"]
-klaviatuur_rida2_list = ["A", "S", "D", "F", "G", "H", "J", "K", "L", "Ö", "Ä"]
-klaviatuur_rida3_list = ["ENTER", "Z", "C", "V", "B", "N", "M", "Š", "Ž", "KUSTUTA"]
+const klaviatuur_rida1_list = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Ü", "Õ"]
+const klaviatuur_rida2_list = ["A", "S", "D", "F", "G", "H", "J", "K", "L", "Ö", "Ä"]
+const klaviatuur_rida3_list = ["ENTER", "Z", "C", "V", "B", "N", "M", "Š", "Ž", "KUSTUTA"]
 
 var random_s6na = words[Math.floor(Math.random() * words.length)];
 let hetkene_rida = 1;
