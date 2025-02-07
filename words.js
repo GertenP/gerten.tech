@@ -1,4 +1,4 @@
-export default words = ["aadam", "aadel", "aader",
+export const words = ["aadam", "aadel", "aader",
     "aaker",
     "aaker",
     "aaker",
